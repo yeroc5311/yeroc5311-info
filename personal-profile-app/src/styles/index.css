@@ -1,0 +1,45 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.flashbang {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.void {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+}
+
+.guestbook {
+    margin-top: 20px;
+}
+
+.counter-button {
+    margin-top: 10px;
+}
+
+.blog-post {
+    margin: 20px 0;
+}
