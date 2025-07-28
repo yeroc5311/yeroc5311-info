@@ -1,0 +1,22 @@
+@import url('https://cdn.jsdelivr.net/npm/jetbrains-mono@latest/jetbrains-mono.css');
+
+:root {
+  --bg-light: #fff;
+  --text-light: #000;
+  --bg-dark: #000;
+  --text-dark: #fff;
+}
+
+body.light {
+  background: var(--bg-light);
+  color: var(--text-light);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body.dark {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* add any extra styling here */

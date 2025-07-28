@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 2rem;
-            background: #f9f9f9;
-            color: #222;
-        }
-        header, footer {
-            background: #eee;
-            padding: 1rem;
-            border-radius: 6px;
-            margin-bottom: 2rem;
-        }
-        main {
-            background: #fff;
-            padding: 2rem;
-            border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-        }
-        h1 {
-            margin-top: 0;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>yeroc5311-info</title>
+  <link href="https://cdn.jsdelivr.net/npm/jetbrains-mono@latest/jetbrains-mono.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <header>
-        <h1>Welcome to Your Page</h1>
-        <nav>
-            <!-- Add navigation links here -->
-        </nav>
-    </header>
-    <main>
-        <h2>About</h2>
-        <p>This is a simple HTML template. Edit the content as you like!</p>
-        <!-- Add more sections or content here -->
-    </main>
-    <footer>
-        &copy; 2025 Your Name
-    </footer>
+<body class="light">
+  <button id="toggle-mode">flashbang / void</button>
+
+  <section id="about-me">
+    <h1>about me</h1>
+    <ul>
+      <li><strong>fun facts:</strong> <!-- insert fun facts here --></li>
+      <li><strong>interests:</strong> <!-- interests list --></li>
+      <li><strong>pc specs:</strong> <!-- specs here --></li>
+      <li><strong>socials:</strong> <!-- links --></li>
+    </ul>
+  </section>
+
+  <section id="guestbook">
+    <h2>guestbook <span id="counter">0</span></h2>
+    <form id="guest-form">
+      <input type="text" id="guest-input" placeholder="your message" />
+      <button type="submit">sign</button>
+    </form>
+    <ul id="entries"></ul>
+  </section>
+
+  <section id="blog">
+    <h2>blog</h2>
+    <ul>
+      <!-- jekyll will auto-populate posts here -->
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
